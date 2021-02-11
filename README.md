@@ -370,9 +370,9 @@ docker pull       cr.$DOMAIN/alpine/alpine
    EOF
    ```
 
-## 6. Check automatically deployed spplicstions
+## 6. Check automatically deployed applicstions
 
-As soon as you save this project, the build process for `main` and `feature/blue` branch (or any other branches
+As soon as you create the Jenkins pipeline job, the build process for `main` and `feature/blue` branch (or any other branches
 available in the repository at the time) should start, run and deploy the application to the `main` and
 `featureblue` namespaces (and potentially other namespaces corresponding to the branches) in the Kubernetes cluster.
 
